@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   HOWTO_BUILD_WORKSHOP: HOWTO_BUILD_WORKSHOP.html
   workshop_example: workshop_example.html
-last_built: 2020-12-07T12:18Z
+last_built: 2020-12-07T13:55Z
 urls:
   reference: https://lgatto.github.io/QFeaturesWorkshop2020/reference
   article: https://lgatto.github.io/QFeaturesWorkshop2020/articles
