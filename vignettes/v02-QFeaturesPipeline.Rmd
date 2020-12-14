@@ -39,6 +39,15 @@ steps:
 - Aggregation
 - Downstream analysis
 
+Let's start by loading the requried packages
+
+```{r pkgs, message = FALSE}
+library("tidyverse")
+library("ggplot2")
+library("QFeatures")
+library("limma")
+```
+
 
 ### The CPTAC data
 

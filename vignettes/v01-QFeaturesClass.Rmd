@@ -122,14 +122,11 @@ class implemented in the
 [`QFeatures`](https://rformassspectrometry.github.io/QFeatures/articles/QFeatures.html)
 package. The class is derived from the Bioconductor
 `MultiAssayExperiment` [@MAE] class. Let's start by loading the
-`tidyverse` and `QFeatures` packages.
+`QFeatures` package.
 
 
 ```{r pkgs, message = FALSE}
-library("tidyverse")
-library("ggplot2")
 library("QFeatures")
-library("limma")
 ```
 
 Next, we load the `feat1` test data, which is composed of single
