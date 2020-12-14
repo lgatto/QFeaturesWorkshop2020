@@ -13,7 +13,7 @@ bibliography: refs.bib
 library(BiocStyle)
 knitr::opts_chunk$set(echo = TRUE,
                       message = FALSE,
-                        collapse = TRUE)
+                      collapse = TRUE)
 ```
 
 **Last modified:** `r file.info("QFeaturesWorkshop2020.Rmd")$mtime`<br />

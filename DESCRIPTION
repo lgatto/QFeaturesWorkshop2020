@@ -34,6 +34,7 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown,
+    BiocStyle,
     msdata,
     preprocessCore,
     limma,
