@@ -35,7 +35,7 @@ for any quantitative data set. We will be using the
 `SummarizedExperiment` [@SE] class:
 
 ```{r sefig, echo = FALSE, fig.cap = "Schematic representation of the anatomy of a `SummarizedExperiment` object. (Figure taken from the `SummarizedExperiment` package vignette.)"}
-knitr::include_graphics("SE.svg")
+knitr::include_graphics("SE.png")
 ```
 
 - The sample (columns) metadata can be access with the `colData()`

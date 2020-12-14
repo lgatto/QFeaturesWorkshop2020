@@ -1,12 +1,12 @@
 Package: QFeaturesWorkshop2020
 Title: QFeatures EuroBioc2020 Workshop
-Version: 0.1.2
+Version: 0.2.0
 Authors@R:
     person(given = "Laurent",
-	   family = "Gatto",
-	   role = c("aut", "cre"),
-	   email = "laurent.gatto@uclouvain.be",
-	   comment = c(ORCID = "0000-0002-1520-2268"))
+       family = "Gatto",
+       role = c("aut", "cre"),
+       email = "laurent.gatto@uclouvain.be",
+       comment = c(ORCID = "0000-0002-1520-2268"))
 Description: The QFeatures package provides infrastructure (that is
    classes to store data and the methods to process and manipulate
    them) to manage and analyse quantitative features from mass
