@@ -31,7 +31,7 @@ representated as a matrix of quantitative values for features (PSMs,
 peptides, proteins) arranged along the rows, measured for a set of
 samples, arranged along the columns. The is a common representation
 for any quantitative data set. We will be using the
-`SummarizedExperiment` class:
+`SummarizedExperiment` [@SE] class:
 
 ```{r sefig, echo = FALSE, fig.cap = "Schematic representation of the anatomy of a `SummarizedExperiment` object. (Figure taken from the `SummarizedExperiment` package vignette.)"}
 knitr::include_graphics("SE.svg")
@@ -119,8 +119,9 @@ segments(8, 15, 9, 12, lty = "dashed")
 We are going to start to familiarise ourselves with the `QFeatures`
 class implemented in the
 [`QFeatures`](https://rformassspectrometry.github.io/QFeatures/articles/QFeatures.html)
-package. Let's start by loading the `tidyverse` and `QFeatures`
-packages.
+package. The class is derived from the Bioconductor
+`MultiAssayExperiment` [@MAE] class. Let's start by loading the
+`tidyverse` and `QFeatures` packages.
 
 
 ```{r pkgs, message = FALSE}
@@ -763,3 +764,5 @@ Repeat and adapt what we have seen here using, for example, the
 ```{r si}
 sessionInfo()
 ```
+
+## References {-}
