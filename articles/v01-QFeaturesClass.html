@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">QFeaturesWorkshop2020</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -94,14 +94,14 @@
 
     
     
-<p><strong>Last modified:</strong> 2020-12-14 12:04:35<br><strong>Compiled</strong>: Mon Dec 14 12:38:59 2020</p>
+<p><strong>Last modified:</strong> 2020-12-14 13:09:58<br><strong>Compiled</strong>: Mon Dec 14 13:46:40 2020</p>
 <p><strong>Learning Objectives</strong> The goals of this workshop are to provide a real-life example of step-by-step quantitative proteomics data analysis using the <code>QFeatures</code> package. This vignette focuses on the <code>QFeatures</code> infrastructure.</p>
 <div id="introduction" class="section level2">
 <h2 class="hasAnchor">
 <a href="#introduction" class="anchor"></a>Introduction</h2>
 <p>Mass spectrometry-based quantitative proteomics data can be representated as a matrix of quantitative values for features (PSMs, peptides, proteins) arranged along the rows, measured for a set of samples, arranged along the columns. The is a common representation for any quantitative data set. We will be using the <code>SummarizedExperiment</code> <span class="citation">(Morgan et al. 2020)</span> class:</p>
 <div class="figure">
-<img src="SE.svg" alt=""><p class="caption">Schematic representation of the anatomy of a <code>SummarizedExperiment</code> object. (Figure taken from the <code>SummarizedExperiment</code> package vignette.)</p>
+<img src="SE.png" alt=""><p class="caption">Schematic representation of the anatomy of a <code>SummarizedExperiment</code> object. (Figure taken from the <code>SummarizedExperiment</code> package vignette.)</p>
 </div>
 <ul>
 <li>The sample (columns) metadata can be access with the <code>colData()</code> function.</li>
