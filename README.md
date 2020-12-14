@@ -24,3 +24,47 @@ class, is recommended to follow this short workshop.
 
 The content of this workshop is provided under a [CC-BY
 ShareAlike](https://creativecommons.org/licenses/by-sa/2.0/) license.
+
+
+## Running the workshop
+
+
+You can install all necessary packages to run the workshop locally by
+installing the following packages:
+
+```r
+## general
+install.packages("tidyverse")
+install.packages("patchwork")
+install.packages("factoextra")
+
+
+## Bioconductor packages
+if (!requireNamespace("BiocManager", quietly = TRUE))
+	install.packages("BiocManager")
+BiocManager::install("QFeatures")
+BiocManager::install("msdata")
+BiocManager::install("limma")
+```
+
+
+The
+[lgatto/qfeaturesworkshop2020](https://hub.docker.com/repository/docker/lgatto/qfeaturesworkshop2020)
+docker container has all packages necessary for running the workshop vignettes.
+
+The container can be downloaded and run with
+
+```sh
+docker run -e PASSWORD=bioc -p 8787:8787 lgatto/qfeaturesworkshop2020:latest
+```
+
+(you can choose any passwork, not only `bioc`, above)
+
+Once running, navigate to https://localhost:8787/ and then login with
+user `rstudio` and password `bioc`.
+
+
+During the
+[EuroBioc2020](https://eurobioc2020.bioconductor.org/workshops)
+conference, the workshop can be [run in the
+cloud](http://app.orchestra.cancerdatasci.org/).
