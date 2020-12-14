@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   v01-QFeaturesClass: v01-QFeaturesClass.html
   v02-QFeaturesPipeline: v02-QFeaturesPipeline.html
-last_built: 2020-12-14T13:46Z
+last_built: 2020-12-14T15:25Z
 urls:
   reference: https://lgatto.github.io/QFeaturesWorkshop2020/reference
   article: https://lgatto.github.io/QFeaturesWorkshop2020/articles

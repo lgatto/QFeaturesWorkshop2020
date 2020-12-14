@@ -100,6 +100,30 @@
 <p><img src="https://raw.githubusercontent.com/rformassspectrometry/stickers/master/QFeatures/QFeatures.png" height="150"></p>
 <p>The <a href="https://rformassspectrometry.github.io/QFeatures/articles/QFeatures.html"><code>QFeatures</code></a> package provides infrastructure (that is classes to store data and the methods to process and manipulate them) to manage and analyse quantitative features from mass spectrometry experiments. It is based on the <code>SummarizedExperiment</code> and <code>MultiAssayExperiment</code> Bioconductor classes. Assays in a QFeatures object have a hierarchical relation: proteins are composed of peptides, themselves produced by spectra. Throughout the aggregation and processing of these data, the relations between assays are tracked and recorded, thus allowing users to easily navigate across spectra, peptide and protein quantitative data. In this workshop, we will demonstrate how to import data as QFeatures objects, how to process and analyse data in QFeatures objects, and how to interpret the results. Some familiarity with Bioconductor data analysis, in particular the SummarizedExperiment class, is recommended to follow this short workshop.</p>
 <p>The content of this workshop is provided under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY ShareAlike</a> license.</p>
+<div id="running-the-workshop" class="section level2">
+<h2 class="hasAnchor">
+<a href="#running-the-workshop" class="anchor"></a>Running the workshop</h2>
+<p>You can install all necessary packages to run the workshop locally by installing the following packages:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co">## general</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"tidyverse"</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"patchwork"</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"factoextra"</span><span class="op">)</span>
+
+
+<span class="co">## Bioconductor packages</span>
+<span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html">requireNamespace</a></span><span class="op">(</span><span class="st">"BiocManager"</span>, quietly <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span>
+    <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"BiocManager"</span><span class="op">)</span>
+<span class="fu">BiocManager</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/BiocManager/man/install.html">install</a></span><span class="op">(</span><span class="st">"QFeatures"</span><span class="op">)</span>
+<span class="fu">BiocManager</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/BiocManager/man/install.html">install</a></span><span class="op">(</span><span class="st">"msdata"</span><span class="op">)</span>
+<span class="fu">BiocManager</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/BiocManager/man/install.html">install</a></span><span class="op">(</span><span class="st">"limma"</span><span class="op">)</span></code></pre></div>
+<p>The <a href="https://hub.docker.com/repository/docker/lgatto/qfeaturesworkshop2020">lgatto/qfeaturesworkshop2020</a> docker container has all packages necessary for running the workshop vignettes.</p>
+<p>The container can be downloaded and run with</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">docker</span> run -e PASSWORD=bioc -p 8787:8787 lgatto/qfeaturesworkshop2020:latest</span></code></pre></div>
+<p>(you can choose any passwork, not only <code>bioc</code>, above)</p>
+<p>Once running, navigate to <a href="https://localhost:8787/" class="uri">https://localhost:8787/</a> and then login with user <code>rstudio</code> and password <code>bioc</code>.</p>
+<p>During the <a href="https://eurobioc2020.bioconductor.org/workshops">EuroBioc2020</a> conference, the workshop can be <a href="http://app.orchestra.cancerdatasci.org/">run in the cloud</a>.</p>
+</div>
 </div>
   </div>
 
