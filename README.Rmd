@@ -26,24 +26,8 @@ The content of this workshop is provided under a [CC-BY
 ShareAlike](https://creativecommons.org/licenses/by-sa/2.0/) license.
 
 
-
-```
-
-To cite package 'QFeaturesWorkshop2020' in publications use:
-
-  Laurent Gatto (2020). QFeaturesWorkshop2020: QFeatures EuroBioc2020
-  Workshop. R package version 0.2.0.
-  https://github.com/lgatto/QFeaturesWorkshop2020
-
-A BibTeX entry for LaTeX users is
-
-  @Manual{,
-    title = {QFeaturesWorkshop2020: QFeatures EuroBioc2020 Workshop},
-    author = {Laurent Gatto},
-    year = {2020},
-    note = {R package version 0.2.0},
-    url = {https://github.com/lgatto/QFeaturesWorkshop2020},
-  }
+```{r, warning = FALSE, echo = FALSE, comment = ""}
+citation("QFeaturesWorkshop2020")
 ```
 
 ## Running the workshop
