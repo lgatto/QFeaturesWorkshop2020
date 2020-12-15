@@ -32,7 +32,7 @@ ShareAlike](https://creativecommons.org/licenses/by-sa/2.0/) license.
 To cite package 'QFeaturesWorkshop2020' in publications use:
 
   Laurent Gatto (2020). QFeaturesWorkshop2020: QFeatures EuroBioc2020
-  Workshop. R package version 0.2.0.
+  Workshop. R package version 0.2.1.
   https://github.com/lgatto/QFeaturesWorkshop2020
 
 A BibTeX entry for LaTeX users is
@@ -41,7 +41,7 @@ A BibTeX entry for LaTeX users is
     title = {QFeaturesWorkshop2020: QFeatures EuroBioc2020 Workshop},
     author = {Laurent Gatto},
     year = {2020},
-    note = {R package version 0.2.0},
+    note = {R package version 0.2.1},
     url = {https://github.com/lgatto/QFeaturesWorkshop2020},
   }
 ```
